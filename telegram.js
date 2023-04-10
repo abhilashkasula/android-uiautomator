@@ -1,0 +1,10 @@
+const {open, tap, write, wait, enter, clear} = require('./interaction')
+
+open('org.telegram.messenger')
+wait(1)
+tap(350, 400)
+wait(0.2)
+tap(350, 2150)
+wait(0.2)
+write('hi hello')
+clear()
